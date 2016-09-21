@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7725E99D1D89DDBD009C0D6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725E99C1D89DDBD009C0D6F /* AppDelegate.swift */; };
-		7725E99F1D89DDBD009C0D6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725E99E1D89DDBD009C0D6F /* ViewController.swift */; };
+		7725E99F1D89DDBD009C0D6F /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725E99E1D89DDBD009C0D6F /* TipViewController.swift */; };
 		7725E9A21D89DDBD009C0D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7725E9A01D89DDBD009C0D6F /* Main.storyboard */; };
 		7725E9A41D89DDBD009C0D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7725E9A31D89DDBD009C0D6F /* Assets.xcassets */; };
 		7725E9A71D89DDBD009C0D6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7725E9A51D89DDBD009C0D6F /* LaunchScreen.storyboard */; };
 		7725E9B21D89DDBD009C0D6F /* tip_karmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725E9B11D89DDBD009C0D6F /* tip_karmaTests.swift */; };
 		7725E9BD1D89DDBD009C0D6F /* tip_karmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725E9BC1D89DDBD009C0D6F /* tip_karmaUITests.swift */; };
+		77EF1AD51D8AD45A00D9EA57 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF1AD41D8AD45A00D9EA57 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		7725E9991D89DDBD009C0D6F /* tip karma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip karma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7725E99C1D89DDBD009C0D6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7725E99E1D89DDBD009C0D6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7725E99E1D89DDBD009C0D6F /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		7725E9A11D89DDBD009C0D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7725E9A31D89DDBD009C0D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7725E9A61D89DDBD009C0D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		7725E9B81D89DDBD009C0D6F /* tip karmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip karmaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7725E9BC1D89DDBD009C0D6F /* tip_karmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_karmaUITests.swift; sourceTree = "<group>"; };
 		7725E9BE1D89DDBD009C0D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77EF1AD41D8AD45A00D9EA57 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				7725E99C1D89DDBD009C0D6F /* AppDelegate.swift */,
-				7725E99E1D89DDBD009C0D6F /* ViewController.swift */,
+				7725E99E1D89DDBD009C0D6F /* TipViewController.swift */,
 				7725E9A01D89DDBD009C0D6F /* Main.storyboard */,
+				77EF1AD41D8AD45A00D9EA57 /* SettingsViewController.swift */,
 				7725E9A31D89DDBD009C0D6F /* Assets.xcassets */,
 				7725E9A51D89DDBD009C0D6F /* LaunchScreen.storyboard */,
 				7725E9A81D89DDBD009C0D6F /* Info.plist */,
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7725E99F1D89DDBD009C0D6F /* ViewController.swift in Sources */,
+				7725E99F1D89DDBD009C0D6F /* TipViewController.swift in Sources */,
 				7725E99D1D89DDBD009C0D6F /* AppDelegate.swift in Sources */,
+				77EF1AD51D8AD45A00D9EA57 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				7725E9C31D89DDBD009C0D6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7725E9C41D89DDBD009C0D6F /* Build configuration list for PBXNativeTarget "tip karmaTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				7725E9C61D89DDBD009C0D6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7725E9C71D89DDBD009C0D6F /* Build configuration list for PBXNativeTarget "tip karmaUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				7725E9C91D89DDBD009C0D6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
