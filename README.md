@@ -1,6 +1,6 @@
 # Pre-work - *Tip Karma*
 
-**Tip Karma** is a tip calculator application for iOS.
+**Tip Karma** is a tip calculator application for iOS. This app was made for CodePath!
 
 Submitted by: **(Jennifer) Shola Oyedele**
 
