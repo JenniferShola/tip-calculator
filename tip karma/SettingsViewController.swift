@@ -90,6 +90,7 @@ class SettingsViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         updateScreen()
+        self.splitField.becomeFirstResponder()
         super.viewWillAppear(animated)
         print("view will appear")
     }
